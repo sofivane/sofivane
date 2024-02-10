@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="robots" content="noindex, nofollow">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Envios Seguros</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/363b8144db.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+  <header style="display: block;">   
+    <img src="img/servientrega.png" width="200"/>
+    <i class="fa-solid fa-bars" style="
+      right: 25px;
+      top: 18px;
+      font-size: 27px;
+      color: white;
+      position: fixed;">
+    </i> 
+  </header>
+
+  <div class="imagen"></div>
+  
+  <h2>Hacemos la entrega, transporte y envio de documentos y mercancias, los recogemos en la puerta de tu casa y los llevamos hasta su destino en el tiempo que requieras.</h2>
+
+  <div class="icon">
+    <i class="fa-solid fa-headset" style="
+      font-size: 36px;
+      position: absolute;
+      color: white;
+      right: 12px;
+     top: 11px;">
+    </i>
+  </div>
+
+  <img src="img/servientregawomen.jpg" width="309" style="margin-left: 34px; border-radius: 0 0 15% 0;"/>
+
+  <!-- Modal -->
+
+
+<div id="myModal" class="modal">
+
+  <span class="close-button" onclick="closeModal()">
+    <div class="modal-content"  action="form.php">
+      
+      <h3>Envio en espera</h3>
+      <hr>
+      <img class="ico_rastreo" src="img/ico_rastreo.png" style="
+        padding-bottom: 10px; 
+        font-size: large; 
+        padding: 13px;
+        width: 87%;
+
+        @media screen and (min-width: 1200px) and (min-height: 600px) {
+        .ico_rastreo{
+        padding: 30px;
+        width: 75%;}
+        }">
+        
+
+        
+      <p>El paquete con guia de rastreo 4R5A8D78G12B8CO Se encuentra en espera.</p>
+      <p>Debe actualizar los datos de envio y realizar el pago del impuesto al IVA por un valor de 
+      $9.780 COP.</p>
+      
+      <input class="next__page" type="submit" value="Actualizar datos">
+      
+    </div>
+  </span>  
+</div>
+
+<script>
+
+var modal = document.getElementById("myModal");
+function closeModal() {
+    
+    window.location.href = "form.php";
+}
+
+
+
+</script>
+</body>
+</html>
+
+
+
